@@ -1,0 +1,220 @@
+.site-header {
+  background: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png") no-repeat center;
+  height: 600px;
+  margin-top: 0;
+  margin-bottom: 50px;
+} 
+
+main {
+  background: #fff;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+  background: #444444;
+  padding: 20px;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-style: normal;
+  font-size: 25px;
+  text-align: block;
+  quotes: "“" "”";
+}
+
+blockquote::before {
+  content: open-quote;
+  /* then the styling */
+  font-size: 4em;
+  line-height: 0.5em;
+  margin-right: 0.25em;
+  margin-left: -0.1em;
+  vertical-align: -0.12em;
+}
+
+
+blockquote p {
+  display: block;
+    font-family: 'Abril Fatface', cursive;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: -1em;
+  margin-bottom: 0.2em;
+}
+
+ul {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+}
+
+p {
+  display: block;
+  text-align: block;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+}
+
+.page-content {
+   max-width: 900px;
+  margin: auto;
+}
+
+obrazek {
+  width: 700px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+
+h6 {
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  font-size: 40px;
+  padding-left: 0px;
+  padding-top: 250px;
+  margin-bottom: 0;
+  padding-right: 640px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  font-size: 80px;
+  text-align: center;
+  padding-right: 2.8em;
+  display: block;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+   text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 0px;
+  padding: 20px 0px 0px 0px;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hl {
+  border-left: 800px solid black;
+  height: 5px;
+  position: absolute;
+  margin-left: none;
+  margin-top: 30px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  background: #999;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 10px 10px;
+  user-select: none;
+}
+/*positioning of right button  next slider*/
+
+.next {
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 0;
+  text-align: left;
+}
+
+
+.next {
+  position: fixed; /* Position them relative to the browser window */
+  right: -40px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 50px; /* Set a specific width */
+  height: 50px;
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  text-align: left;
+  color: white; /* White text color */
+  border-radius: 25%; /* Rounded corners on the top right and bottom right side */
+}
+
+.next:hover {
+  right: -20px; /* On mouse-over, make the elements appear as they should */
+}
+  
+ /*nastaveni of leveho button prev slider*/
+
+
+.prev {
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 0;
+  text-align: center;
+}
+
+/* Style the links inside the sidenav */
+.prev {
+  position: fixed; /* Position them relative to the browser window */
+  left: -40px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 50px; /* Set a specific width */
+  height: 50px;
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  text-align: right;
+  color: white; /* White text color */
+  border-radius: 25%; /* Rounded corners on the top right and bottom right side */
+}
+
+.prev:hover {
+  left: -20px; /* On mouse-over, make the elements appear as they should */
+
+
+
+
+.personal {
+  margin-top: 100px;
+}
